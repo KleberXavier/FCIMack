@@ -1,0 +1,68 @@
+main {
+    background-image: url(../image/Pós\ DigitalemCiênciaDados.png);
+    background-size: cover;
+    height: 100vh;
+    position: absolute;
+    width: 100vw;
+    margin-top: -12vh;
+}
+.textMack1 {
+    margin: 5em 0em 1em 0em;
+}
+.containercurso{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100vh;
+    align-items: center;
+    
+}
+.curso{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.curso h1{
+    font-size: 2em;
+    margin: 1em 0;
+    color: #bf1523;
+
+}
+.curso h2{
+    font-size: 1.3em;
+    line-height: 1.5;
+}
+.curso li {
+    margin-top: 1.5em;
+    font-size: 1.3em;
+    line-height: 1.5;
+}
+.videocurso {
+    width: 60%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    margin: 3em 0;
+}
+
+.videocurso iframe {
+    width: 100%;
+    height: 100%;
+}
+.curso i{
+    color: #bf1523;
+    margin: 0em 1em 0 0;
+}
+
+@media screen and (max-width: 767px) {
+    main {
+        background-image: url(../image/PósemCiênciaDadosCel.png);            
+} 
+.videocurso {
+    width: 90%;
+    height: 35vh;
+} 
+.curso {
+    width: 80%;
+}
+}
